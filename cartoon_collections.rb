@@ -8,9 +8,7 @@ end
 collection
 end
 
-roll_call_dwarves(dwarfs=["Doc", "Dopey", "Bashful", "Grumpy"]) do |i|
-  puts array.each_with_index
-end 
+
 
 def summon_captain_planet# code an argument here
   # Your code here
