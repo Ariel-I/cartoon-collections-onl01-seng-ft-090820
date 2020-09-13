@@ -1,7 +1,9 @@
 def roll_call_dwarves(dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"])
-  rollcall = []
-  dwarfs.each_with_index{ |index, dwarfs| rollcall<< "#{index+1}. #{dwarfs}"}
-  return rollcall
+  i = 0 
+  while i < 0 
+  yield(array[i])
+  i = i + 1 
+end 
 end
 
 def summon_captain_planet# code an argument here
