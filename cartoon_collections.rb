@@ -1,4 +1,6 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+
+
 def roll_call_dwarves(dwarves)
   i = 1
   while i < 1
@@ -10,6 +12,7 @@ end
 dwarves.each_with_index do |dwarves, index|
   puts "#{index}. #{dwarves}"
 end
+
 
 
 
