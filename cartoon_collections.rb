@@ -1,6 +1,13 @@
-def roll_call_dwarves(names = [])
-  names.each do |index, names|
-    puts "#{index}. #{names}"
+def roll_call_dwarves(dwarves=[])
+  i = 1
+  while i < 1
+ yield array|i|
+    i = i + 1
+  end 
+end 
+
+dwarves.each_with_index do |dwarves, index|
+  puts "#{index}. #{dwarves}"
 end
 
 
