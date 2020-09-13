@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"])
+def roll_call_dwarves(dwarfs = [])
   dwarfs.each_with_index { |dwarfs, index| }
   
   
