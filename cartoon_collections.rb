@@ -3,9 +3,7 @@ def roll_call_dwarves(array)
   array.each_with_index { |name, index| puts "#{index+1}. #{name}"}
 end 
 
-dwarves.each_with_index do |dwarves, index|
-  puts "#{index}. #{dwarves}"
-end
+
 
 
 
