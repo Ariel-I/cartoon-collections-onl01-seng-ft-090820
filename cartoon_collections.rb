@@ -31,3 +31,4 @@ def find_the_cheese(array)
     end 
 index += 1
 end
+end 
