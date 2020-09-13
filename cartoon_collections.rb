@@ -1,11 +1,6 @@
-def roll_call_dwarves(dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"])
-  i = 0 
-  collection = []
-  while i < 0 
-  collection << yield(array[i])
-  i = i + 1 
-end 
-collection
+def roll_call_dwarves(names = [])
+  names.each do |index, names|
+    puts "#{index}. #{names}"
 end
 
 
