@@ -14,9 +14,9 @@ end
 
 def long_planeteer_calls(array)
   array.any? do |calls|
-    if calls > 4 
+    if calls.length > 4 
       calls = true 
-    else calls < 4
+    else calls.length < 4
       calls = false
     end
   end 
