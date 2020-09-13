@@ -8,7 +8,7 @@ end
 collection
 end
 
-roll_call_dwarves(dwarfs) do |i|
+roll_call_dwarves(dwarfs=["Doc", "Dopey", "Bashful", "Grumpy"]) do |i|
   puts array.each_with_index
 end 
 
