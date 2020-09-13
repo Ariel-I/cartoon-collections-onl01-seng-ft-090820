@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarfs = [])
-  dwarfs.each_with_index { |dwarfs, index| }
+  puts dwarfs.each_with_index { |dwarfs, index| }
   
   
 end
