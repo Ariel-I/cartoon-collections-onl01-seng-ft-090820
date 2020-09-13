@@ -14,7 +14,8 @@ end
 
 def long_planeteer_calls(array)
   calls = []
-  if array.each |calls| 
+  array.each do |calls| 
+    if
 end
 
 def find_the_cheese# code an argument here
