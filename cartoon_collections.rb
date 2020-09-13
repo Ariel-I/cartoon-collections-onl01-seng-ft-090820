@@ -1,5 +1,5 @@
-
-def roll_call_dwarves(dwarves=[])
+dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+def roll_call_dwarves(dwarves)
   i = 1
   while i < 1
  yield array|i|
