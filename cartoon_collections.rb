@@ -1,11 +1,6 @@
-dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-
-
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves(array)
   i = 0
-  while i < 0
- yield array|i|
-    i = i + 1
+  array.each_with_index 
   end 
 end 
 
