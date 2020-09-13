@@ -1,6 +1,5 @@
 def roll_call_dwarves(dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"])
-  i = 0 
-  while i < 0 
+  rollcall = []
   puts dwarfs.each_with_index { |index, dwarfs| }
 end
 
