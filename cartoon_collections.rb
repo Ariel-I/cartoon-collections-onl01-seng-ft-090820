@@ -16,7 +16,7 @@ def long_planeteer_calls(array)
   calls = []
   array.each do |calls| 
     if calls.even?
-      
+      calls = true 
 end
 
 def find_the_cheese# code an argument here
